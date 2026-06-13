@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.bookstackapp.com/",
+  "name": "BookStack",
+  "description": "BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments, image galleries, comments, roles, users, audit logs, imports, search, tags, and content permissions.",
+  "url": "https://www.bookstackapp.com/",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Wiki",
+  "operatingSystem": "Linux, Windows, macOS",
+  "softwareVersion": "26.05.1",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Wiki and documentation management",
+    "Hierarchical content organization (Shelves, Books, Chapters, Pages)",
+    "REST API",
+    "Token-based authentication",
+    "Role-based access control",
+    "Content permissions",
+    "WYSIWYG and Markdown editors",
+    "Multi-factor authentication",
+    "SAML2 and LDAP authentication",
+    "Webhooks",
+    "Audit logging",
+    "Import/export (ZIP, HTML, PDF, Markdown, Plaintext)",
+    "Image gallery",
+    "Attachments",
+    "Search",
+    "Tags",
+    "Comments",
+    "Recycle bin",
+    "Dark mode",
+    "Multi-language support"
+  ],
+  "codeRepository": "https://codeberg.org/bookstack/bookstack",
+  "programmingLanguage": "PHP",
+  "runtimePlatform": "Laravel",
+  "maintainer": {
+    "@type": "Person",
+    "name": "Dan Brown",
+    "url": "https://www.bookstackapp.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BookStack",
+    "url": "https://www.bookstackapp.com/",
+    "sameAs": [
+      "https://codeberg.org/bookstack/bookstack",
+      "https://fosstodon.org/@bookstack"
+    ]
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "Access BookStack REST API",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://{your-bookstack-instance}/api",
+      "description": "REST API providing programmatic access to books, chapters, pages, shelves, attachments, image galleries, comments, roles, users, audit logs, imports, recycle bin, search, tags, content permissions, and system information."
+    }
+  },
+  "subjectOf": {
+    "@type": "WebAPI",
+    "name": "BookStack REST API",
+    "description": "The BookStack REST API provides programmatic access to manage the full content hierarchy of a BookStack instance.",
+    "documentation": "https://demo.bookstackapp.com/api/docs",
+    "termsOfService": "https://www.bookstackapp.com/",
+    "provider": {
+      "@type": "Organization",
+      "name": "BookStack",
+      "url": "https://www.bookstackapp.com/"
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "url": "https://www.bookstackapp.com/blog/index.xml",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "BookStack Security Release v26.05.1",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-05-1/",
+      "published": "2026-06-09",
+      "description": "Addresses vulnerabilities in attachment requests, file protocol abuse, and search system abuse."
+    },
+    {
+      "title": "BookStack Release v26.05",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-05/",
+      "published": "2026-05-28",
+      "description": "First feature release managed via Codeberg after migration from GitHub."
+    },
+    {
+      "title": "BookStack Security Release v26.03.5",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-03-5/",
+      "published": "2026-05-21",
+      "description": "Patches brute-force vulnerability in multi-factor authentication and updates libraries."
+    },
+    {
+      "title": "BookStack Security Release v26.03.4",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-03-4/",
+      "published": "2026-04-30",
+      "description": "Improves attachment permission checks and webhook URL validation."
+    },
+    {
+      "title": "BookStack Has Migrated From GitHub to Codeberg",
+      "url": "https://www.bookstackapp.com/blog/project-migrated-to-codeberg/",
+      "published": "2026-04-28",
+      "description": "Project repositories fully migrated to Codeberg platform."
+    },
+    {
+      "title": "April 2026 Community Updates",
+      "url": "https://www.bookstackapp.com/blog/april-2026-community-updates/",
+      "published": "2026-04-19",
+      "description": "Updates on community spaces and recent developments."
+    },
+    {
+      "title": "BookStack Security Release v26.03.2",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-03-2/",
+      "published": "2026-03-23",
+      "description": "Addresses vulnerability where registration form could grant unauthorized roles."
+    },
+    {
+      "title": "BookStack Security Release v26.03.1",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-03-1/",
+      "published": "2026-03-17",
+      "description": "Fixes permission bypass in markdown exports exposing hidden content."
+    },
+    {
+      "title": "BookStack Release v26.03",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-03/",
+      "published": "2026-03-15",
+      "description": "Focuses on customization and extension options enhancements."
+    },
+    {
+      "title": "BookStack Security Release v25.12.9",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-12-9/",
+      "published": "2026-03-12",
+      "description": "Patches style code vulnerability enabling page manipulation in revision views."
+    },
+    {
+      "title": "BookStack Security Release v25.12.4",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-12-4/",
+      "published": "2026-02-17",
+      "description": "Addresses style code vulnerability allowing page manipulation beyond content area."
+    },
+    {
+      "title": "BookStack Security Release v25.12.3",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-12-3/",
+      "published": "2026-01-29",
+      "description": "Fixes vulnerability where form elements could trick users into making API requests."
+    },
+    {
+      "title": "BookStack in 2025",
+      "url": "https://www.bookstackapp.com/blog/bookstack-in-2025/",
+      "published": "2026-01-02",
+      "description": "Retrospective on project progress celebrating decade milestone."
+    },
+    {
+      "title": "BookStack Security Release v25.12.1",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-12-1/",
+      "published": "2025-12-30",
+      "description": "Adds search operation limits and ZIP import file size checks."
+    },
+    {
+      "title": "BookStack Release v25.12",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-12/",
+      "published": "2025-12-24",
+      "description": "Christmas release featuring user-focused improvements and additions."
+    },
+    {
+      "title": "BookStack Security Release v25.11.6",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-11-6/",
+      "published": "2025-12-09",
+      "description": "Patches XML handling vulnerability in SAML authentication."
+    },
+    {
+      "title": "BookStack Release v25.11",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-11/",
+      "published": "2025-11-09",
+      "description": "Significant database structure changes with expanded API capabilities."
+    },
+    {
+      "title": "BookStack Release v25.07",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-07/",
+      "published": "2025-07-30",
+      "description": "Varied improvements across editing, customization, and platform features."
+    },
+    {
+      "title": "A Decade of BookStack",
+      "url": "https://www.bookstackapp.com/blog/decade-of-bookstack/",
+      "published": "2025-07-12",
+      "description": "Celebrates 10-year milestone since initial project commit."
+    },
+    {
+      "title": "Things I'm Proud of in the BookStack Project",
+      "url": "https://www.bookstackapp.com/blog/things-proud-of-in-bookstack/",
+      "published": "2025-07-08",
+      "description": "Reflective post on project accomplishments and strengths."
+    },
+    {
+      "title": "BookStack Release v25.05",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-05/",
+      "published": "2025-05-31",
+      "description": "May release emphasizing new comment features and enhancements."
+    },
+    {
+      "title": "Using BookStack as a Linux File System",
+      "url": "https://www.bookstackapp.com/blog/bookstack-filesystem/",
+      "published": "2025-04-20",
+      "description": "Proof-of-concept for mounting BookStack as Linux filesystem."
+    },
+    {
+      "title": "Testing Better Dependency Management",
+      "url": "https://www.bookstackapp.com/blog/php-dependency-improvements/",
+      "published": "2025-03-17",
+      "description": "Updates to system CLI and dependency management improvements."
+    },
+    {
+      "title": "BookStack Release v25.02",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v25-02/",
+      "published": "2025-02-26",
+      "description": "Maintenance release upgrading core framework with added features."
+    },
+    {
+      "title": "BookStack in 2024",
+      "url": "https://www.bookstackapp.com/blog/bookstack-in-2024/",
+      "published": "2025-01-06",
+      "description": "Year-end review of project progress, maintenance, and funding."
+    },
+    {
+      "title": "BookStack Release v24.12",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-12/",
+      "published": "2024-12-23",
+      "description": "Christmas release featuring new import/export format and editor improvements."
+    },
+    {
+      "title": "BookStack Security Release v24.10.2",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-10-2/",
+      "published": "2024-11-13",
+      "description": "Patches dependency vulnerability affecting certain PHP configurations."
+    },
+    {
+      "title": "BookStack Release v24.10",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-10/",
+      "published": "2024-10-09",
+      "description": "Includes first alpha-state WYSIWYG editor and additional features."
+    },
+    {
+      "title": "BookStack Project Update for September 2024",
+      "url": "https://www.bookstackapp.com/blog/project-update-september-24/",
+      "published": "2024-09-12",
+      "description": "Progress update covering development activities over preceding months."
+    },
+    {
+      "title": "BookStack Security Release v24.05.4",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-05-4/",
+      "published": "2024-08-29",
+      "description": "Addresses LDAP group syncing and API response permission issues."
+    },
+    {
+      "title": "Nine Years of BookStack",
+      "url": "https://www.bookstackapp.com/blog/9-years-of-bookstack/",
+      "published": "2024-07-12",
+      "description": "Milestone post reviewing project status, finances, and growth metrics."
+    },
+    {
+      "title": "BookStack Security Release v24.05.1",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-05-1/",
+      "published": "2024-05-21",
+      "description": "Rate-limiting additions and email existence enumeration prevention."
+    },
+    {
+      "title": "BookStack Release v24.05",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-05/",
+      "published": "2024-05-11",
+      "description": "Feature update focused on framework upgrade with additional enhancements."
+    },
+    {
+      "title": "BookStack Release v24.02",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v24-02/",
+      "published": "2024-02-28",
+      "description": "Variety of enhancements addressing common user pain-points."
+    },
+    {
+      "title": "BookStack Security Release v23.12.3",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-12-3/",
+      "published": "2024-02-26",
+      "description": "Fixes blind server-side request forgery vulnerability in PDF generation."
+    },
+    {
+      "title": "BookStack in 2023",
+      "url": "https://www.bookstackapp.com/blog/bookstack-in-2023/",
+      "published": "2024-01-04",
+      "description": "Year review covering platform development and broader project topics."
+    },
+    {
+      "title": "BookStack Release v23.12",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-12/",
+      "published": "2023-12-29",
+      "description": "Year-end release with WYSIWYG editor and page template features."
+    },
+    {
+      "title": "BookStack Security Release v23.10.3",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-10-3/",
+      "published": "2023-11-20",
+      "description": "Patches image handling vulnerability and permission check gaps."
+    },
+    {
+      "title": "BookStack Release v23.10",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-10/",
+      "published": "2023-10-30",
+      "description": "Maintenance release with user self-management revamp and design updates."
+    },
+    {
+      "title": "BookStack Release v23.08",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-08/",
+      "published": "2023-08-30",
+      "description": "Initial notification system implementation with various improvements."
+    },
+    {
+      "title": "Eight Years of BookStack",
+      "url": "https://www.bookstackapp.com/blog/8-years-of-bookstack/",
+      "published": "2023-07-12",
+      "description": "Eight-year milestone post comparing year-on-year metrics and finances."
+    },
+    {
+      "title": "BookStack Release v23.06",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-06/",
+      "published": "2023-06-30",
+      "description": "Improvements to comment display and image manager revamp."
+    },
+    {
+      "title": "BookStack Release v23.05",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-05/",
+      "published": "2023-05-03",
+      "description": "May release with new command-line tool and various additions."
+    },
+    {
+      "title": "BookStack Release v23.02",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-02/",
+      "published": "2023-02-26",
+      "description": "Maintenance release upgrading framework with optimizations."
+    },
+    {
+      "title": "BookStack Release v23.01",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v23-01/",
+      "published": "2023-01-31",
+      "description": "Year-start release with UX enhancements and backend permission changes."
+    },
+    {
+      "title": "BookStack in 2022",
+      "url": "https://www.bookstackapp.com/blog/bookstack-in-2022/",
+      "published": "2023-01-05",
+      "description": "2022 retrospective covering milestones and project progress."
+    },
+    {
+      "title": "BookStack Release v22.11",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-11/",
+      "published": "2022-11-30",
+      "description": "November release with interface enhancements and features."
+    },
+    {
+      "title": "BookStack Release v22.10",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-10/",
+      "published": "2022-10-21",
+      "description": "October release continuing permission control improvements."
+    },
+    {
+      "title": "BookStack Release v22.09",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-09/",
+      "published": "2022-09-08",
+      "description": "September release with desired features and language updates."
+    },
+    {
+      "title": "BookStack Release v22.07",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-07/",
+      "published": "2022-07-28",
+      "description": "Release beginning permission system changes with enhancements."
+    },
+    {
+      "title": "BookStack Release v22.06",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-06/",
+      "published": "2022-06-24",
+      "description": "Refinement-focused June release with new streamlining features."
+    },
+    {
+      "title": "BookStack Release v22.04",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-04/",
+      "published": "2022-04-29",
+      "description": "Features easier page editor switching and export improvements."
+    },
+    {
+      "title": "BookStack Release v22.03",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-03/",
+      "published": "2022-03-30",
+      "description": "Features WYSIWYG editor additions and settings view changes."
+    },
+    {
+      "title": "BookStack Release v22.02",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v22-02/",
+      "published": "2022-02-26",
+      "description": "First 2022 feature release with WYSIWYG and API updates."
+    },
+    {
+      "title": "BookStack Release v21.12",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v21-12/",
+      "published": "2021-12-22",
+      "description": "Year-end release with webhooks and copy features."
+    },
+    {
+      "title": "BookStack Release v21.11",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v21-11/",
+      "published": "2021-11-16",
+      "description": "Focuses on tags and search system improvements with framework upgrades."
+    },
+    {
+      "title": "BookStack Release v21.10",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v21-10/",
+      "published": "2021-10-25",
+      "description": "Features new authentication option and API endpoints."
+    },
+    {
+      "title": "BookStack Release v21.08",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v21-08/",
+      "published": "2021-08-31",
+      "description": "Brings multi-factor authentication support and various features."
+    },
+    {
+      "title": "BookStack Release v21.05",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v21-05/",
+      "published": "2021-05-30",
+      "description": "Introduces favorites system and improved in-book navigation."
+    },
+    {
+      "title": "BookStack Release v21.04",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v21-04/",
+      "published": "2021-04-09",
+      "description": "Drops beta branding, updates version scheme, community-focused release."
+    },
+    {
+      "title": "Beta Release v0.31.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-31-0/",
+      "published": "2021-01-03",
+      "description": "Includes recycle bin, ownership control, audit log updates."
+    },
+    {
+      "title": "Beta Release v0.30.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-30-0/",
+      "published": "2020-09-20",
+      "description": "Delayed release with various enhancements after extended cycle."
+    },
+    {
+      "title": "Beta Release v0.29.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-29-0/",
+      "published": "2020-04-13",
+      "description": "Easter release featuring dark mode and RTL text support."
+    },
+    {
+      "title": "Beta Release v0.28.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-28-0/",
+      "published": "2020-02-03",
+      "description": "Initial API implementation and SAML2 authentication."
+    },
+    {
+      "title": "Beta Release v0.27.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-27-0/",
+      "published": "2019-08-31",
+      "description": "Introduces page templates and new user invitation flow."
+    },
+    {
+      "title": "Beta Release v0.26.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-26-0/",
+      "published": "2019-05-06",
+      "description": "Refreshed design with improved mobile experience."
+    },
+    {
+      "title": "Beta Release v0.25.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-25-0/",
+      "published": "2019-01-12",
+      "description": "2019 kick-off focused on system improvements."
+    },
+    {
+      "title": "Beta Release v0.24.0",
+      "url": "https://www.bookstackapp.com/blog/beta-release-v0-24-0/",
+      "published": "2018-09-24",
+      "description": "Introduces bookshelves and social authentication features."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name: BookStack API Rate Limits
+description: BookStack enforces per-user rate limiting on its REST API. Limits are configurable by the instance administrator via environment variable.
+url: https://demo.bookstackapp.com/api/docs
+rate_limits:
+  - name: Default API Request Limit
+    description: The default maximum number of API requests allowed per user per minute. When the limit is exceeded the API returns an HTTP 429 Too Many Requests response.
+    requests: 180
+    period: minute
+    scope: per-user
+    configurable: true
+    configuration:
+      env_variable: API_REQUESTS_PER_MIN
+      description: Set in the BookStack .env configuration file on the server to override the default of 180 requests per minute.
+      example: API_REQUESTS_PER_MIN=60
+headers:
+  - name: Retry-After
+    description: Returned in the response when a 429 rate limit error is encountered, indicating how long to wait before retrying.
+notes:
+  - Rate limiting is applied per authenticated API token user.
+  - Browser session-authenticated requests also count toward the same limit.
+  - Unauthenticated form endpoints have additional rate limiting added in v24.05.1.
+  - Instance administrators can raise or lower the limit to match their server capacity.

@@ -1,0 +1,29 @@
+name: BookStack Plans and Pricing
+description: BookStack is fully free and open-source software released under the MIT license. There are no paid tiers, no per-seat pricing, and no enterprise SKU for the self-hosted software itself. Costs are limited to the infrastructure you choose to run it on.
+url: https://www.bookstackapp.com/
+plans:
+  - name: Self-Hosted (Free)
+    description: Download and run BookStack on your own infrastructure at no software cost. Requires a web server (Apache/Nginx), PHP, and a MySQL/MariaDB database.
+    price: 0
+    currency: USD
+    period: free
+    features:
+      - Full REST API access
+      - Unlimited users
+      - Unlimited books, chapters, pages, shelves
+      - WYSIWYG and Markdown editors
+      - Full-text search
+      - Role-based access control
+      - LDAP, SAML2, OIDC, and OAuth2 authentication
+      - Webhooks and outbound integrations
+      - Diagrams.net integration
+      - Audit log
+      - Image gallery
+      - File attachments
+      - Export to PDF, HTML, plain text, Markdown
+      - ZIP import/export
+      - Multi-language support
+notes:
+  - The MIT license allows commercial use, modification, and redistribution.
+  - Managed hosting is available from third-party providers such as Elestio (from ~$11/month) and Stellar Hosted, but these are not official BookStack offerings.
+  - Donations to the project are accepted at https://www.bookstackapp.com/donate/

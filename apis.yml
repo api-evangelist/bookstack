@@ -1,0 +1,64 @@
+aid: bookstack
+name: BookStack
+description: BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments, image galleries, comments, roles, users, audit logs, imports, search, tags, and content permissions across hierarchical knowledge bases.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bookstack/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Wiki
+  - Documentation
+  - Knowledge Base
+  - Self-Hosted
+  - Open Source
+  - Content Management
+apis:
+  - aid: bookstack:bookstack-api
+    name: BookStack REST API
+    description: The BookStack REST API provides programmatic access to manage the full content hierarchy of a BookStack instance including books, chapters, pages, shelves, attachments, image galleries, comments, roles, users, audit logs, imports, recycle bin, search, tags, content permissions, and system information.
+    humanURL: https://demo.bookstackapp.com/api/docs
+    baseURL: https://{your-bookstack-instance}/api
+    tags:
+      - Wiki
+      - Documentation
+      - Pages
+      - Books
+      - Chapters
+      - Shelves
+      - Search
+      - Attachments
+      - Users
+      - Roles
+    properties:
+      - type: Documentation
+        url: https://demo.bookstackapp.com/api/docs
+      - type: Authentication
+        url: https://demo.bookstackapp.com/api/docs#auth
+common:
+  - type: Website
+    url: https://www.bookstackapp.com/
+  - type: Documentation
+    url: https://www.bookstackapp.com/docs/
+  - type: GitHubOrg
+    url: https://codeberg.org/bookstack/bookstack
+  - type: Blog
+    url: https://www.bookstackapp.com/blog
+  - type: BlogRSS
+    url: https://www.bookstackapp.com/blog/index.xml
+  - type: Pricing
+    url: https://www.bookstackapp.com/
+  - type: StatusPage
+    url: https://www.bookstackapp.com/
+  - type: X
+    url: https://fosstodon.org/@bookstack
+  - type: Plans
+    url: plans/bookstack-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/bookstack-rate-limits.yml
+  - type: FinOps
+    url: finops/bookstack-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

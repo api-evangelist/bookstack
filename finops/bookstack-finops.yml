@@ -1,0 +1,42 @@
+name: BookStack FinOps
+description: BookStack is free open-source software with no software licensing cost. All financial considerations relate to self-hosting infrastructure or optional third-party managed hosting services.
+url: https://www.bookstackapp.com/
+model: open-source
+license: MIT
+cost_drivers:
+  - name: Server Infrastructure
+    description: The primary cost of running BookStack is the server or VPS you host it on. A minimal instance can run on a $5-10/month VPS.
+    type: infrastructure
+    optional: false
+    examples:
+      - provider: VPS (self-managed)
+        cost_range: "$5 - $50/month"
+        notes: Depends on storage, memory, and traffic requirements.
+  - name: Managed Hosting (Third-Party)
+    description: Several third-party providers offer managed BookStack hosting, handling server setup, backups, and updates for a monthly fee.
+    type: managed-service
+    optional: true
+    examples:
+      - provider: Elestio
+        url: https://elest.io/open-source/bookstack
+        cost_range: "~$11/month and up"
+      - provider: Stellar Hosted
+        url: https://www.stellarhosted.com/bookstack/
+        cost_range: "Varies; discount for annual payment"
+  - name: Storage
+    description: Costs for file attachments, images, and exported content scale with the volume of content stored. Local disk or object storage costs apply.
+    type: storage
+    optional: false
+  - name: Email Service
+    description: BookStack sends transactional emails (user invites, password resets, notifications). An SMTP provider or email service is required and may incur cost.
+    type: email
+    optional: false
+optimization_tips:
+  - Use a minimal VPS and scale only when performance demands it.
+  - Enable the recycle bin to avoid accidental data loss without excessive storage overhead.
+  - Leverage ZIP export/import for migrations to avoid data transfer costs.
+  - Use free tier SMTP providers (e.g., Mailgun, Brevo) for low-volume installations.
+support:
+  community: https://community.bookstackapp.com
+  donations: https://www.bookstackapp.com/donate/
+  notes: The project is maintained by a small team and funded primarily by community donations and sponsorships.

@@ -1,6 +1,6 @@
 {
   "url": "https://www.bookstackapp.com/blog/index.xml",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "BookStack Security Release v26.05.1",
@@ -410,5 +410,20 @@
       "published": "2018-09-24",
       "description": "Introduces bookshelves and social authentication features."
     }
-  ]
+  ],
+  "repo": "bookstack",
+  "feeds": [
+    {
+      "source": "https://codeberg.org/bookstack/bookstack",
+      "feed_url": "https://codeberg.org/bookstack/bookstack",
+      "title": "",
+      "saved": 7,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.bookstackapp.com/blog",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 7
 }

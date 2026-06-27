@@ -1,6 +1,6 @@
 {
   "url": "https://www.bookstackapp.com/blog/index.xml",
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T12:03:07Z",
   "posts": [
     {
       "title": "BookStack Security Release v26.05.1",
@@ -414,16 +414,26 @@
   "repo": "bookstack",
   "feeds": [
     {
+      "source": "https://www.bookstackapp.com/blog/index.xml",
+      "feed_url": "https://www.bookstackapp.com/blog/index.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://codeberg.org/bookstack/bookstack",
       "feed_url": "https://codeberg.org/bookstack/bookstack",
       "title": "",
-      "saved": 7,
+      "saved": 2,
       "method": "feed"
     },
     {
       "source": "https://www.bookstackapp.com/blog",
-      "error": "HTTPError"
+      "feed_url": "https://www.bookstackapp.com/index.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
-  "post_count": 7
+  "post_count": 9
 }

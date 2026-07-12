@@ -37,6 +37,10 @@ apis:
       - type: Authentication
         url: https://demo.bookstackapp.com/api/docs#auth
 common:
+  - type: VulnerabilityDisclosure
+    url: security/bookstack-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/bookstack-domain-security.yml
   - type: Website
     url: https://www.bookstackapp.com/
   - type: Documentation

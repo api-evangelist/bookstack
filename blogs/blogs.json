@@ -1,7 +1,13 @@
 {
   "url": "https://www.bookstackapp.com/blog/index.xml",
-  "fetched": "2026-06-27T12:03:07Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "posts": [
+    {
+      "title": "BookStack Security Release v26.05.2",
+      "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-05-2/",
+      "published": "2026-07-02",
+      "description": "Addresses edge case vulnerabilities in URL filtering, redirect handling, and permission checks."
+    },
     {
       "title": "BookStack Security Release v26.05.1",
       "url": "https://www.bookstackapp.com/blog/bookstack-release-v26-05-1/",
@@ -424,7 +430,14 @@
       "source": "https://codeberg.org/bookstack/bookstack",
       "feed_url": "https://codeberg.org/bookstack/bookstack",
       "title": "",
-      "saved": 2,
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.bookstackapp.com/index.xml",
+      "feed_url": "https://www.bookstackapp.com/index.xml",
+      "title": "",
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -435,5 +448,5 @@
       "method": "discovered"
     }
   ],
-  "post_count": 9
+  "post_count": 79
 }

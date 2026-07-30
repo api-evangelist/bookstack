@@ -2,7 +2,19 @@ aid: bookstack
 name: BookStack
 description: BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments, image galleries, comments, roles, users, audit logs, imports, search, tags, and content permissions across hierarchical knowledge bases.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bookstack.png
 url: https://raw.githubusercontent.com/api-evangelist/bookstack/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13

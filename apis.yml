@@ -24,6 +24,13 @@ tags:
   - Documentation
   - Knowledge Base
   - Self-Hosted
+  - Open-Source
+  - Content Management
+tags_raw:
+  - Wiki
+  - Documentation
+  - Knowledge Base
+  - Self-Hosted
   - Open Source
   - Content Management
 apis:
@@ -33,6 +40,17 @@ apis:
     humanURL: https://demo.bookstackapp.com/api/docs
     baseURL: https://{your-bookstack-instance}/api
     tags:
+      - Wiki
+      - Documentation
+      - Pages
+      - Books
+      - Chapters
+      - Shelves
+      - Search
+      - Attachments
+      - User
+      - Roles
+    tags_raw:
       - Wiki
       - Documentation
       - Pages

@@ -1,6 +1,6 @@
 {
   "url": "https://www.bookstackapp.com/blog/index.xml",
-  "fetched": "2026-08-22T20:20:02Z",
+  "fetched": "2026-08-30T22:33:40Z",
   "posts": [
     {
       "title": "BookStack Security Release v26.05.2",
@@ -448,5 +448,5 @@
       "method": "discovered"
     }
   ],
-  "post_count": 90
+  "post_count": 101
 }

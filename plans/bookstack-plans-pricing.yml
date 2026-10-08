@@ -31,3 +31,17 @@ notes:
   - The MIT license allows commercial use, modification, and redistribution.
   - Managed hosting is available from third-party providers such as Elestio (from ~$11/month) and Stellar Hosted, but these are not official BookStack offerings.
   - Donations to the project are accepted at https://www.bookstackapp.com/donate/
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Self-Hosted (Free)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - other

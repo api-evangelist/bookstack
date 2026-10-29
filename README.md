@@ -64,28 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It organizes content into a hierarchical structure of shelves, books, chapters, and pages, and provides a full REST API for programmatic access to all content and configuration.
+BookStack is a free, open-source, self-hosted wiki and documentation platform built with PHP and Laravel. It provides a REST API for managing the full content hierarchy including books, chapters, pages, and shelves, as well as attachments, image galleries, comments, roles, users, audit logs, imports, search, tags, and content permissions across hierarchical knowledge bases.
 
-## API
+**Areas:** Wiki · Documentation · Knowledge Base · Self-Hosted · Open Source · Content Management
 
-The BookStack REST API supports managing books, chapters, pages, shelves, attachments, image galleries, comments, roles, users, audit logs, imports, recycle bin, search, tags, content permissions, and system information. Authentication is via API tokens scoped to user roles.
+## BookStack on APIs.io
 
-- API Documentation (demo instance): https://demo.bookstackapp.com/api/docs
-- Default rate limit: 180 requests per minute per user (configurable via `API_REQUESTS_PER_MIN`)
+Everything profiled for BookStack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bookstack/](https://apis.io/providers/bookstack/)** — or go straight to one of the APIs or properties below.
 
-## Resources
+### APIs (1)
 
-- Website: https://www.bookstackapp.com/
-- Documentation: https://www.bookstackapp.com/docs/
-- Source Code: https://codeberg.org/bookstack/bookstack
-- Blog / Changelog: https://www.bookstackapp.com/blog
-- Community: https://community.bookstackapp.com
-- Mastodon: https://fosstodon.org/@bookstack
+- [BookStack REST API](https://apis.io/apis/bookstack/bookstack-api/) — The BookStack REST API provides programmatic access to manage the full content hierarchy of a BookStack instance including books, chapters, pages, shelves,…
 
-## License
+### Published properties
 
-BookStack is released under the [MIT License](https://codeberg.org/bookstack/bookstack/src/branch/development/LICENSE).
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Profile
+#### Security (2)
 
-This repository contains the APIs.json 0.19 profile for BookStack, maintained by [API Evangelist](https://apievangelist.com).
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bookstack Domain Security](https://apis.io/security/bookstack/bookstack-domain-security/)
+- [Bookstack Vulnerability Disclosure](https://apis.io/security/bookstack/bookstack-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bookstack Plans Pricing](https://apis.io/plans/bookstack/bookstack-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bookstack Rate Limits](https://apis.io/rate-limits/bookstack/bookstack-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bookstack Finops](https://apis.io/finops/bookstack/bookstack-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bookstackapp.com/)
+- [Documentation](https://www.bookstackapp.com/docs/)
+- [Pricing](https://www.bookstackapp.com/)
+- [Blog](https://www.bookstackapp.com/blog)
+- [Status](https://www.bookstackapp.com/)
+
+## API Evangelist rating
+
+**Kin Score 18.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 15.8 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bookstack/](https://apis.io/providers/bookstack/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BookStack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bookstack/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
